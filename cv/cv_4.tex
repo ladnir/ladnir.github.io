@@ -46,7 +46,7 @@
 	
 	Other areas of note include the design and implementation of efficient state of art methods for privacy preserving machine learning, i.e. regression, neural networks, decision trees. I lead the development of this technology at Visa with the goal to enable responsible data sharing with industry partners. Another Visa inspired application is privacy preserving biometric authentication where a client, e.g. card holder, wishes to authenticate to a server, e.g. Visa, using their biometrics without revealing the biometrics.
 	
-	Finally, the development and security analysis of highly efficient low level cryptographic primitives, most notably Oblivious Transfer. In this area I have designed several of the state of art protocols (i.e. Endemic OT, Silent OT, Silver) and identified security vulnerabilities in existing constructions. In addition, I am the author of the industry leading open source library for performing efficient oblivious transfer.
+	Finally, the development and security analysis of highly efficient low level cryptographic primitives, most notably Oblivious Transfer. In this area I have designed several of the state of art protocols (i.e. Endemic OT, Silent OT, Expand Convolute) and identified security vulnerabilities in existing constructions. In addition, I am the author of the industry leading open source library for performing efficient oblivious transfer.
 
 %		- Privacy-preserving machine learning     
 %			- aby3, neural nets. 
@@ -127,13 +127,39 @@
 \hfill {\scriptsize \textcolor{gray}{\emph{Authors listed alphabetically}}}
 
 \begin{enumerate}[label=C\arabic* --]
-	\item  Shashank Agrawal, Wei Dai, Atul Luykx, Pratyay Mukherjee, Peter Rindal. \emph{ParaDiSE: Efficient Threshold Authenticated Encryption in Fully Malicious Model.} Unpublished Manuscript 2022.
+	\item Gayathri Garimella,  Srinivasan Raghuraman, Peter Rindal. \emph{Distributional Secure Merge.} IACR Cryptol.  IACR Cryptol. ePrint Arch. 2024.
+	
+	\item Suvradip Chakraborty, Stanislav Peceny, Srinivasan Raghuraman, Peter Rindal. \emph{Logstar: Efficient Linear* Time Secure Merge.} IACR Cryptol. ePrint Arch. 2024.
+	
+	\item Stanislav Peceny, Srinivasan Raghuraman, Peter Rindal, Harshal Shah. \emph{Efficient Permutation Correlations and Batched Random Access for Two-Party Computation.} IACR Cryptol. ePrint Arch. 2024.
+	
+	\item Navid Alamati, Guru-Vamsi Policharla, Srinivasan Raghuraman, Peter Rindal. \emph{Improved Alternating Moduli PRFs and Post-Quantum Signatures.} IACR Cryptol. ePrint Arch. 2024.
+	
+	\item 	Saikrishna Badrinarayanan, Ranjit Kumaresan, Mihai Christodorescu, Vinjith Nagaraja, Karan Patel, Srinivasan Raghuraman, Peter Rindal, Wei Sun, Minghua Xu. \emph{A Plug-n-Play Framework for Scaling Private Set Intersection to Billion-Sized Sets.} CANS 2023.
+	
+	\item Srinivasan Raghuraman, Peter Rindal, Titouan Tanguy. \emph{Expand-Convolute Codes for Pseudorandom Correlation Generators from LPN.} CRYPTO 2023.
+	
+	\item 	Ivan De Oliveira Nunes, Peter Rindal, Maliheh Shirvanian. \emph{Oblivious Extractors and Improved Security in Biometric-Based Authentication Systems.} ESORICS 2023.
+	
+	\item 	Amit Agarwal, Navid Alamati, Dakshita Khurana, Srinivasan Raghuraman, Peter Rindal. \emph{On Black-Box Verifiable Outsourcing.} TCC 2023.
+	
+	\item 	Panagiotis Chatzigiannis, Wanyun Catherine Gu, Srinivasan Raghuraman, Peter Rindal, Mahdi Zamani. \emph{Privacy-Enhancing Technologies for Financial Data Sharing.} Manuscript 2023.
+	
+	\item Mazharul Islam, Sunpreet S. Arora, Rahul Chatterjee, Peter Rindal, Maliheh Shirvanian. \emph{Compact: Approximating Complex Activation Functions for Secure Computation.} PETs 2024.
+	
+	\item Sunpreet S. Arora, Andrew Beams, Panagiotis Chatzigiannis, Sebastian Meiser, Karan Patel, Srinivasan Raghuraman, Peter Rindal, Harshal Shah, Yizhen Wang, Yuhang Wu, Hao Yang, Mahdi Zamani. \emph{
+	Privacy-Preserving Financial Anomaly Detection via Federated Learning \& Multi-Party Computation.} Manuscript 2023.
+	
+	\item Saikrishna Badrinarayanan, Sourav Das, Gayathri Garimella, Srinivasan Raghuraman, Peter Rindal. \emph{Secret-Shared Joins with Multiplicity from Aggregation Trees.} CCS 2022.
+	
+	
+	
+	\item  Shashank Agrawal, Wei Dai, Atul Luykx, Pratyay Mukherjee, Peter Rindal. \emph{ParaDiSE: Efficient Threshold Authenticated Encryption in Fully Malicious Model.} INDOCRYPT 2022.
 	
 	
 	\item Srinivasan Raghuraman, Peter Rindal. \emph{Blazing Fast PSI from Improved OKVS and Subfield VOLE.} In \emph{IACR ePrint Archive 2022.}
 	
-	\item 
-	Saikrishna Badrinarayanan, Eysa Lee, Peihan Miao, Peter Rindal. \emph{Improved Multi-Party Fixed Point Multiplication.} Unpublished Manuscript 2022.
+	\item Saikrishna Badrinarayanan, Eysa Lee, Peihan Miao, Peter Rindal. \emph{Improved Multi-Party Fixed Point Multiplication.} Manuscript 2021.
 	
 	\item Saikrishna Badrinarayanan, Gayathri Garimella, Srinivasan Raghuraman, Peter Rindal. \emph{Fast Fully Secret-Shared Private Multi-Set Intersection and SQL Joins with an Honest Majority.} Unpublished Manuscript 2022.
 	
@@ -223,6 +249,8 @@
 	
 	\begin{enumerate}[label=S\arabic* --]
 		
+		\item Peter Rindal. \emph{Vole PSI.} \url{https://github.com/Visa-Research/volepsi}
+		
 		\item Peter Rindal. \emph{Threshold Authenticated Encryption.} (Visa Internal)
 				
 		\item Peter Rindal. \emph{Hydra: Threshold ECDSA.} (Visa Internal)
@@ -284,6 +312,8 @@
 \begin{rSection}{Service}
 	
 	\begin{enumerate}[label=E\arabic* --]
+		\item Committee Member,  \emph{CRYPTO: IACR International Cryptology Conference 2024. }
+		
 		\item External Reviewer,  \emph{CRYPTO: IACR International Cryptology Conference 2022. }
 		
 		\item Committee Member,  \emph{EUROCRYPT: IACR International Cryptology Conference 2021. }
