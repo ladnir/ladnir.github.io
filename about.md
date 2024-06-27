@@ -25,7 +25,7 @@ sidebar_link: true
                 <div id="res">
                     <h3>Curriculum Vitae</h3>
                     <p class="rescont">
-                        Updated May, 2018.<br>
+                        Updated June, 2024.<br>
                         Contact me with any questions.
                     </p>
                     <a href="cv/cv_4.pdf">
